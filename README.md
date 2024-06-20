@@ -220,7 +220,7 @@ memcachedにセッションが書き込まれているようならOK.
 [Sample Videos](https://sample-videos.com)  
 [Download Sample JPG Image](https://sample-videos.com/download-sample-jpg-image.php)
 
-sample-image  
+[sample-images](sample-images)  
 中に約500kbと1MBのテスト画像
 
 ## 7. サンプルソースの動作確認
