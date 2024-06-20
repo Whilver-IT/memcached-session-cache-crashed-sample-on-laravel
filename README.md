@@ -155,7 +155,7 @@ CACHESIZE="64"
 OPTIONS="-l 127.0.0.1,::1"
 ```
 
-変更したら起動
+確認したら起動
 
 ```console
 # systemctl enable memcached[.service]
