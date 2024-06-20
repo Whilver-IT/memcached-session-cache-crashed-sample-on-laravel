@@ -258,6 +258,7 @@ OPTIONS="-l 127.0.0.1,::1 -vv"
 
 ## 10. 対応策
 
+- セッション方式を変えてしまう → これじゃ身も蓋もない!?w
 - memcachedの最大キャッシュサイズを1MBより上げる → 「-I 2m」とかで可能だが、本当にキャッシュサーバのサイズを上げても大丈夫か考慮が必要
 - FormRequestのprepareForValidation()で大きいサイズのものはファイル等に格納してrequestから削除してvalidationの対象から外してvalidation後に戻す
 
